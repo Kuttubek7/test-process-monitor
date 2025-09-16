@@ -16,8 +16,11 @@
 5) line:20
 
 для правильной работы скрипта наши файлы в ubuntu 22.04 LTS должны находиться в директориях
+
 ~/usr/local/bin/monitor_test.sh - а также у него должны быть соответствующие права для запуска
+
 ~/etc/systemd/system/monitor-test.service
+
 ~/etc/systemd/system/monitor-test.timer
 
 ~/var/log/monitoring.log - наши логи будут храниться по этому адресу
