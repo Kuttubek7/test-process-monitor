@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitor test process and ping monitoring API
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/monitor_test.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
